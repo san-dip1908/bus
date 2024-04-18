@@ -1,13 +1,45 @@
-body {
+.body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-Box {
+  /* height: 280px; */
+  /* width: 400px; */
+  /* border: 0.5px solid black; */
+  display: flex;
+  gap: 10px;
+  border-left: 1px solid black;
+  padding: 15px;
+  margin-left: 50px;
+}
+.Box1 {
+  height: 30px;
+  width: 60px;
+  border: 1px solid black;
+}
+.sub-Box1 {
+  height: 20px;
+  width: 10px;
+  border: 1px solid black;
+  margin-left: 35px;
+  margin-top: 4px;
+  display: flex;
+}
+.Boxcolumn2 {
+  /* margin-right: 100px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  margin-top: 60px;
+}
+
+.wheel-parent {
+  border-left: 5px solid grey;
+  border: 3px solid grey;
+}
+.lower-deck {
+  margin-top: 20px;
+}
+.upper-deck {
+  margin-top: 20px;
 }
